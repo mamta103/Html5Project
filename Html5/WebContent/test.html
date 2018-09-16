@@ -16,50 +16,51 @@ metadata.
 <meta name="keyword" content="HTML, HTML5, CSS, CSS, JavaScript">
 <meta name="auther" content="Author Name">
 <meta name="robot" content="index,follow">
-<meta http-equiv="refresh" content="1">
+<meta http-equiv="refresh" content="200">
 <title>html5!</title>
+<style type="text/css">
+table, th, td {
+	border: 1px solid lime;
+	border-collapse: collapse;
+	text-align: left;
+}
 
+thead {
+	background-color: blue
+}
+
+tbody, tfoot {
+	background-color: yellow
+}
+</style>
 </head>
 
-<body>
-	<p>
-		<b>This is bold Text</b>
-	</p>
-	<p>
-		<em>This is Emphasized text</em>
-	</p>
-	<p>
-		<i>This is Italic text</i>
-	</p>
-	<p>
-		<Strong>Strong Text</Strong>
-	</p>
-	<p>
-		This is <small>small</small>tag.
-	</p>
-	<p>
-		This is
-		<del>deleted</del>
-		text
-	</p>
-	<p>
-		This is
-		<ins>Inserted </ins>
-		tag
-	</p>
-	.
-	<p>
-		This is
-		<mark>mark tag</mark>
-		.
-	</p>
+<table style="width: 100%">
+	<caption>My Employee Table</caption>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th colspan="2">Country</th>
 
-	<p>
-		this is <sub>sub</sub> tage
-	</p>
 
-	<p>
-		this is <sup>super</sup>
-	</p>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Jack</td>
+			<td>China</td>
+			<td>120</td>
+		</tr>
+	</tbody>
+
+	<tfoot>
+		<tr>
+			<td>Jack</td>
+			<td>China</td>
+			<td>120</td>
+		</tr>
+	</tfoot>
+</table>
+
 </body>
 </html>
