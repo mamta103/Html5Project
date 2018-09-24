@@ -1,0 +1,474 @@
+24/09/2018
+
+#1. HTML5 Tutorial For Beginners 1 # Introduction
+ 
+ 
+#3. HTML5 Tutorial For Beginners 3 # Basic Structure of HTML
+so as far so learnt->
+1.doctype
+2.lang=eng
+3.head metatag only open tag called.
+3.title
+4.body
+5.paragraph 
+Some of importtant meta tag->
+<meta name="description"
+	content="HTML5 tutorial for beginners. Basic structure of HTML page">
+<meta name="keyword" content="HTML, HTML5, CSS, CSS, JavaScript">
+<meta name="auther" content="Author Name">
+<meta name="robot" content="index,follow">
+<meta http-equiv="refresh" content="2">
+#5. HTML5 Tutorial For Beginners 5 # HTML Headers , Paragraphs and text Formatting tags
+
+1.if wanna to preserve element then need to use <pre></pre> tag.¬
+Tag   Description
+<b>    bold text
+<em>   emphasized text
+<i>    Italic 
+<small> smaller text
+<strong> important text'
+<sub>     subcripted text
+<sup> <supersupcripted text>
+<ins>  inserted btext
+<del> deleted text
+<mark>  marked/highlighted 
+<!--
+metaData will not displayed on the page ,but machine parseable.
+Metadata elements are typically used to specify page description ,keywords ,author of the document , last modified , and other 
+metadata.
+<tagname id="description">Elements</tagname>
+
+
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="description"
+	content="HTML5 tutorial for beginners. Basic structure of HTML page">
+<meta name="keyword" content="HTML, HTML5, CSS, CSS, JavaScript">
+<meta name="auther" content="Author Name">
+<meta name="robot" content="index,follow">
+<meta http-equiv="refresh" content="1">
+<title>html5!</title>
+
+</head>
+
+<body>
+	<p>
+		<b>This is bold Text</b>
+	</p>
+	<p>
+		<em>This is Emphasized text</em>
+	</p>
+	<p>
+		<i>This is Italic text</i>
+	</p>
+	<p>
+		<Strong>Strong Text</Strong>
+	</p>
+	<p>
+		This is <small>small</small>tag.
+	</p>
+	<p>
+		This is
+		<del>deleted</del>
+		text
+	</p>
+	<p>
+		This is
+		<ins>Inserted </ins>
+		tag
+	</p>
+	.
+	<p>
+		This is
+		<mark>mark tag</mark>
+		.
+	</p>
+
+	<p>
+		this is <sub>sub</sub> tage
+	</p>
+
+	<p>
+		this is <sup>super</sup>
+	</p>
+</body>
+</html>
+
+#8. HTML5 Tutorial For Beginners 8 # Intro to HTML & CSS
+
+1.inline style css
+	<h1 style="color: blue">This post has been published</h1>
+2.now use style in outside inline->
+<style>
+h1 {
+	color: blue
+}
+
+body {
+	background-color: yellow;
+}
+</style>
+</head>
+
+<body>
+	<h1>This post has been published</h1>
+</body>
+</html>
+3.now using styling in different class by link.
+<link rel="stylesheet"  href="style.css">
+</head>
+
+or 
+h1 {
+	color: blue
+}
+
+body {
+	background-color: yellow;
+}
+4.with class.
+	<h1 class="myclass">This post has been published</h1>
+
+and with style.css
+
+h1.myclass{
+	color:blue
+}
+
+#9. HTML5 Tutorial For Beginners 9 # HTML Images with img tag
+
+<body>
+<img alt="My sweet pics" src="images/HTML5Logo.png" width="600" height="600">
+</body>
+or by using style
+<img alt="My sweet pics" src="images/HTML5Logo.png" style="width:100px; height:100px; ">
+
+#10. HTML5 Tutorial For Beginners 10 # HTML Lists (Ordered Lists, Unordered Lists, Definition Lists)
+to make unordered list need to write 
+<ul>
+		<li>Mamta</li>
+		<li>Sunil</li>
+		<li>Susant</li>
+		<li>Sudhir</li>
+
+	</ul>
+4 types of list type
+1. 	<ul style="list-style-type: none;">
+2. 	<ul style="list-style-type: circle;">
+3. 	<ul style="list-style-type: square;">
+
+to make order list need to write <ol>
+1.default type is number type.
+<ol style="list-style-type: ;">
+		<li>Susant</li>
+		<li>B</li>
+		<li>D</li>
+		<li>Sudhir</li>
+
+	</ol>
+---
+<!--
+metaData will not displayed on the page ,but machine parseable.
+Metadata elements are typically used to specify page description ,keywords ,author of the document , last modified , and other 
+metadata.
+<tagname id="description">Elements</tagname>
+
+
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="description"
+	content="HTML5 tutorial for beginners. Basic structure of HTML page">
+<meta name="keyword" content="HTML, HTML5, CSS, CSS, JavaScript">
+<meta name="auther" content="Author Name">
+<meta name="robot" content="index,follow">
+<meta http-equiv="refresh" content="200">
+<title>html5!</title>
+</head>
+
+<body>
+	<ol type="I ">
+		<li>Susant</li>
+		<ul>
+		<li>Tea</li>
+		</ul>
+		<li>B</li>
+		<li>D</li>
+		<li>Sudhir</li>
+
+	</ol>
+	
+	<dl>
+	<dt>Term</dt>
+	<dd>Description details</dd>
+	
+	<dt>Term</dt>
+	<dd>Description details 2!</dd>
+	
+	</dl>
+
+</body>
+</html>
+
+
+<!--
+metaData will not displayed on the page ,but machine parseable.
+Metadata elements are typically used to specify page description ,keywords ,author of the document , last modified , and other 
+metadata.
+<tagname id="description">Elements</tagname>
+
+
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="description"
+	content="HTML5 tutorial for beginners. Basic structure of HTML page">
+<meta name="keyword" content="HTML, HTML5, CSS, CSS, JavaScript">
+<meta name="auther" content="Author Name">
+<meta name="robot" content="index,follow">
+<meta http-equiv="refresh" content="200">
+<title>html5!</title>
+<style type="text/css">
+table, th, td {
+	border: 1px solid lime;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+thead {
+	background-color: blue
+}
+
+tbody, tfoot {
+	background-color: yellow
+}
+</style>
+</head>
+
+<table style="width: 100%">
+	<caption>My Employee Table</caption>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th colspan="2">Country</th>
+
+
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Jack</td>
+			<td>China</td>
+			<td>120</td>
+		</tr>
+	</tbody>
+
+	<tfoot>
+		<tr>
+			<td>Jack</td>
+			<td>China</td>
+			<td>120</td>
+		</tr>
+	</tfoot>
+</table>
+
+</body>
+</html>
+#12. HTML5 Tutorial For Beginners 12 # Using div Tags to Layout header, navigation, section and footer
+1.<div></div> is a element which containes other html element.
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<div style="background-color: yellow;">
+		<h1>Html5 Tutorial!</h1>
+		<p>Tutorial Details</p>
+	</div>
+</body>
+</html>
+
+
+2. <!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+#header {
+	background-color: blue;
+	color: white;
+	text-align: center;
+	padding: 6px;
+}
+
+#navigation {
+	line-height: 40px;
+	background-color: yellow;
+	height: 500px;
+	width: 100px;
+	float: left;
+	padding: 5px;
+}
+
+#section {
+	width: 350px;
+	float: left;
+	padding: 10px;
+}
+
+#footer {
+	background-color: blue;
+	color: white;
+	text-align: center;
+	padding: 6px;
+	clear: both;
+}
+</style>
+</head>
+<body>
+	<div id="header">
+		<h1>Tutorial!</h1>
+	</div>
+
+	<div id="navigation">
+		Java <br> C++ <br> C <br>
+	</div>
+
+
+	<div id="section">
+		<h2>Code Tutorial</h2>
+		<p style="float: left">The jury will determine the winners of the
+			contest taking into consideration the following criteria. Kindly note
+			that this is just not another photography contest. In order of
+			importance, the criteria are as follows:</p>
+	</div>
+
+
+	<div id="footer">Copyright example.com</div>
+</body>
+</html>
+
+
+#13. HTML5 Tutorial For Beginners 13 # Html5 Section, Header, Footer and Nav.
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+header {
+	background-color: blue;
+	color: white;
+	text-align: center;
+	padding: 6px;
+}
+
+navigation {
+	line-height: 40px;
+	background-color: yellow;
+	height: 500px;
+	width: 100px;
+	float: left;
+	padding: 5px;
+}
+
+section {
+	width: 350px;
+	float: left;
+	padding: 10px;
+}
+
+footer {
+	background-color: blue;
+	color: white;
+	text-align: center;
+	padding: 6px;
+	clear: both;
+}
+</style>
+</head>
+<body>
+	<header>
+		<h1>Tutorial!</h1>
+	</header>
+
+	<nav>
+		Java <br> C++ <br> C <br>
+	</nav>
+
+	<section>
+		<h2>Code Tutorial</h2>
+		<p style="float: left">The jury will determine the winners of the
+			contest taking into consideration the following criteria. Kindly note
+			that this is just not another photography contest. In order of
+			importance, the criteria are as follows:</p>
+	</section>
+
+	<footer>Copyright example.com</footer>
+</body>
+</html>
+
+ 
+
+#14. HTML5 Tutorial For Beginners 14 # HTML Video Tag
+
+
+
+
+
+=================== 24/sep/2018==================================
+HTML vs HTML5
+
+•	HTML5 supports both audio and video whereas none of these was a part of HTML
+
+•	HTML does not allow JavaScript to run within the web browser whereas HTML5 provides full support for JavaScript to run in the background.
+•	
+•	In HTML5, inline MathML and SVG can be used in text whereas this wasn’t possible in HTML.
+
+•	HTML5 supports new kinds of form controls, for example: dates and times, email, number, range, tel, url, search etc.
+
+•	There are many new elements introduced in HTML5. Some of the most important ones are: summary, time, audio, details, embed, figcaption, figure, footer, header, article, canvas, nav, output, section, source, track, video, etc..
+
+
+Other main differences are:
+•	Doctype declaration: In HTML,it is too longer as compared to that in HTML5
+o	HTML
+•	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+
+o	HTML5 :
+1.	
+<!DOCTYPE html>
+
+
+•	Character encoding: in HTML,it is more complex as compared to that in HTML5
+o	HTML:
+1.	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+o	HTML5:
+1.	<meta charset="UTF-8">
+
+
+•	Vector Graphics:
+o	HTML: Vector Graphics is possible with the help of technologies such as VML, Silverlight, Flash etc
+o	HTML5: Vector graphics is integral part of HTML5 e.g. SVG and canvas
+•	Shapes:
+o	HTML: Not possible to draw shapes like circle, rectangle, triangle.
+o	HTML5: You can draw shapes like circle, rectangle, triangle.
+•	Storage:
+o	HTML: use cookies
+o	HTML5: use local storage instead of cookies
+
